@@ -54,18 +54,18 @@ const config = {
         port: 465,
         secure: true,
         auth: {
-            user: 'boskodamjanovic@gmail.com',
-            pass: 'Euforion007'
+            user: 'code.factory.me@gmail.com',
+            pass: process.env.SMTP_PASSWORD
         }
     },
     system: {
         fromAddress: {
-            name: 'Aqua',
-            address: 'boskodamjanovic@gmail.com'
+            name: 'Intro-aqua',
+            address: 'code.factory.me@gmail.com'
         },
         toAddress: {
-            name: 'Aqua',
-            address: 'boskodamjanovic@gmail.com'
+            name: 'Intro-aqua',
+            address: 'code.factory.me@gmail.com'
         }
     }
 };
