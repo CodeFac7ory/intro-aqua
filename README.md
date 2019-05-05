@@ -1,5 +1,5 @@
 # intro-aqua
-[go](https://intro-aqua.herokuapp.com/){:target="_blank"}
+https://intro-aqua.herokuapp.com
 
 username: test
 password: test
